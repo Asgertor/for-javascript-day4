@@ -1,6 +1,8 @@
 
 import { loadHtml, renderHtml } from "./utils.js"
 
+import {} from "./pages/allCars/allCars.js"
+
 window.addEventListener("load", async () => {
     const templateAbout = await loadHtml("./pages/about.html")
     const templateAdd = await loadHtml("./pages/addCar/addCar.html")
